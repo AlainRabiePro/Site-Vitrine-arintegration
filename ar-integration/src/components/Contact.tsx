@@ -52,7 +52,7 @@ export default function Contact() {
           </p>
           <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
             {[
-              ['Email',   'contact@ar-integration.fr'],
+              ['Email',   'contact@arintegration.fr'],
               ['Réponse', 'Sous 24h ouvrées'],
               ['Basé',    'France — Télétravail'],
             ].map(([label, value]) => (

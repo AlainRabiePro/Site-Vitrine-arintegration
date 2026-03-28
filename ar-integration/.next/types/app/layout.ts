@@ -1,4 +1,4 @@
-// File: C:\Users\rabie\Documents\Site vitrine - Copie\ar-integration\src\app\layout.tsx
+// File: /Volumes/NVME ALAIN/Site Vitrine/Site-Vitrine-arintegration/ar-integration/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
