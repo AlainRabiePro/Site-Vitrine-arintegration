@@ -63,7 +63,7 @@ export default async function PolitiqueConfidentialite({
           <div className="mt-10">
             <Section title="Responsable de traitement">
               <p>
-                AR Intégration — Alain Rabie, auto-entrepreneur. SIRET 102 520 624 00010, Villeurbanne, Lyon, France. Contact : <a href="mailto:contact@arintegration.fr" className="font-medium text-ink underline-offset-4 hover:underline dark:text-white">contact@arintegration.fr</a>.
+                AR Intégration — Alain Rabie, développeur freelance indépendant. SIRET 102 520 624 00010, Villeurbanne, Lyon, France. Contact : <a href="mailto:contact@arintegration.fr" className="font-medium text-ink underline-offset-4 hover:underline dark:text-white">contact@arintegration.fr</a>.
               </p>
             </Section>
 

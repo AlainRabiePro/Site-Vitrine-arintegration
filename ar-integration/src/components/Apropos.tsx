@@ -1,6 +1,12 @@
+// src/components/Apropos.tsx
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { MapPin, Code2, Heart } from 'lucide-react'
 import { Reveal } from './Reveal'
+
+// Placeholder LQIP neutre — remplacer /alain-rabie.jpg par la photo définitive.
+const PHOTO_BLUR =
+  'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI4IiBoZWlnaHQ9IjgiIGZpbGw9IiNlNWU1ZTUiLz48L3N2Zz4='
 
 const PILLARS = [
   { key: 'pillar1', icon: MapPin },
@@ -22,6 +28,19 @@ export default function Apropos() {
               <h2 className="heading-section text-[32px] text-ink dark:text-white md:text-[42px]">
                 {t('title')}
               </h2>
+
+              <div className="mt-8 relative aspect-[4/5] w-full max-w-[240px] overflow-hidden rounded-2xl border border-line bg-neutral-100 dark:border-white/10 dark:bg-white/[0.04]">
+                <Image
+                  src="/alain-rabie.jpg"
+                  alt={t('photoAlt')}
+                  fill
+                  sizes="240px"
+                  placeholder="blur"
+                  blurDataURL={PHOTO_BLUR}
+                  className="object-cover"
+                />
+              </div>
+
               <p
                 className="mt-6 text-[16.5px] leading-relaxed text-muted dark:text-white/70"
                 dangerouslySetInnerHTML={{ __html: t.raw('intro1') as string }}
@@ -29,13 +48,6 @@ export default function Apropos() {
               <p className="mt-4 text-[16.5px] leading-relaxed text-muted dark:text-white/70">
                 {t('intro2')}
               </p>
-
-              <div className="mt-8 space-y-2 rounded-2xl border border-line bg-white/50 p-5 text-[13.5px] text-muted dark:border-white/10 dark:bg-white/[0.03] dark:text-white/65">
-                <div><strong className="text-ink dark:text-white">{t('infoSiret')}</strong> · 102 520 624 00010</div>
-                <div><strong className="text-ink dark:text-white">{t('infoStatut')}</strong> · {t('infoStatutValue')}</div>
-                <div><strong className="text-ink dark:text-white">{t('infoAdresse')}</strong> · {t('infoAdresseValue')}</div>
-                <div><strong className="text-ink dark:text-white">{t('infoZone')}</strong> · {t('infoZoneValue')}</div>
-              </div>
             </div>
           </Reveal>
 

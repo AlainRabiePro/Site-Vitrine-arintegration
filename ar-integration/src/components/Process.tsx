@@ -7,7 +7,7 @@ const STEP_NUMBERS = ['01', '02', '03', '04'] as const
 export default function Process() {
   const t = useTranslations('process')
   return (
-    <section className="border-b border-line dark:border-white/10">
+    <section id="process" className="border-b border-line dark:border-white/10">
       <div className="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-28">
         <Reveal>
           <span className="mx-auto mb-5 flex w-fit items-center gap-2 rounded-full border border-line px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-muted dark:border-white/15 dark:text-white/65">

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Plus } from 'lucide-react'
 import { Reveal } from './Reveal'
 
-const QA_KEYS = ['1', '2', '3', '4', '5', '6', '7', '8'] as const
+const QA_KEYS = ['1', '2', '3', '4', '5', '6'] as const
 
 export default function FAQ() {
   const t = useTranslations('faq')

@@ -48,7 +48,7 @@ export default function Hero() {
             {t('ctaPrimary')}
             <ArrowRight size={16} />
           </a>
-          <a href="#tarifs" className="btn-outline">
+          <a href="#realisations" className="btn-outline">
             {t('ctaSecondary')}
           </a>
         </motion.div>

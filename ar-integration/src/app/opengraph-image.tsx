@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og'
 
-export const alt = 'AR Intégration — Agence web et apps mobiles à Lyon'
+export const alt = 'AR Intégration — Développeur freelance React Native & Next.js à Lyon'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -28,17 +28,18 @@ export default async function Image() {
           </div>
         </div>
 
-        <div style={{ fontSize: 76, fontWeight: 700, lineHeight: 1.04, letterSpacing: -3, display: 'flex', flexDirection: 'column', color: '#FFFFFF', marginBottom: 56 }}>
-          <span style={{ display: 'flex' }}>Sites web et apps mobiles,</span>
-          <span style={{ display: 'flex', color: 'rgba(255,255,255,0.55)' }}>conçus à Lyon.</span>
+        <div style={{ fontSize: 68, fontWeight: 700, lineHeight: 1.04, letterSpacing: -3, display: 'flex', flexDirection: 'column', color: '#FFFFFF', marginBottom: 56 }}>
+          <span style={{ display: 'flex' }}>Développeur freelance</span>
+          <span style={{ display: 'flex' }}>React Native &amp; Next.js</span>
+          <span style={{ display: 'flex', color: 'rgba(255,255,255,0.55)' }}>à Lyon.</span>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: 28, paddingTop: 28, borderTop: '1px solid rgba(255,255,255,0.15)', fontSize: 20, color: 'rgba(255,255,255,0.7)' }}>
-          <span style={{ display: 'flex' }}>Hébergement France</span>
+          <span style={{ display: 'flex' }}>React Native / Expo</span>
           <span style={{ display: 'flex' }}>·</span>
-          <span style={{ display: 'flex' }}>RGPD by design</span>
+          <span style={{ display: 'flex' }}>Next.js / TypeScript</span>
           <span style={{ display: 'flex' }}>·</span>
-          <span style={{ display: 'flex' }}>À partir de 990 €</span>
+          <span style={{ display: 'flex' }}>Supabase</span>
         </div>
       </div>
     ),

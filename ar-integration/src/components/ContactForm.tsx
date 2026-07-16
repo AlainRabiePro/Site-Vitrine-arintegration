@@ -1,8 +1,7 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
-import { useSearchParams } from 'next/navigation'
 import { CheckCircle2, AlertCircle, Loader2 } from 'lucide-react'
 import { countries } from '@/data/countries'
 
@@ -12,22 +11,9 @@ const EMAILJS_SERVICE_ID = 'service_8ml6h64'
 const EMAILJS_TEMPLATE_ID = 'template_w4kjqcl'
 const EMAILJS_PUBLIC_KEY = 'MLPRubrisJiF2a_lW'
 
-const TYPE_KEYS = ['vitrine', 'ecom', 'app', 'saas', 'refonte', 'autre'] as const
+const TYPE_KEYS = ['mobile', 'web', 'agence', 'reprise', 'autre'] as const
 const BUDGET_KEYS = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6'] as const
 const CRENEAU_KEYS = ['c1', 'c2', 'c3', 'c4'] as const
-const OFFRE_KEYS = ['siteEssentielle', 'siteConnecte', 'sitePremium', 'ecomStarter', 'ecomPro', 'appMvp', 'appPro', 'surMesure', 'autre'] as const
-
-const OFFRE_VALUES: Record<typeof OFFRE_KEYS[number], string> = {
-  siteEssentielle: 'site-essentielle',
-  siteConnecte: 'site-connecte',
-  sitePremium: 'site-premium',
-  ecomStarter: 'ecom-starter',
-  ecomPro: 'ecom-pro',
-  appMvp: 'app-mvp',
-  appPro: 'app-pro',
-  surMesure: 'sur-mesure',
-  autre: 'autre',
-}
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
 
@@ -47,7 +33,6 @@ function buildFormattedMessage(d: FormData, fullPhone: string, locale: string): 
   push('Entreprise', String(d.get('entreprise') || '').trim())
   push('Type de projet', String(d.get('type') || '').trim())
   push('Budget', String(d.get('budget') || '').trim())
-  push('Offre intéressée', String(d.get('offre') || '').trim())
   push('Créneau préféré', String(d.get('creneau') || '').trim())
   lines.push(`Langue visiteur : ${locale}`)
   lines.push(`Source : ${SITE_SOURCE}`)
@@ -57,16 +42,8 @@ function buildFormattedMessage(d: FormData, fullPhone: string, locale: string): 
 export default function ContactForm() {
   const t = useTranslations('contact.form')
   const locale = useLocale()
-  const params = useSearchParams()
   const [status, setStatus] = useState<Status>('idle')
   const [errorMessage, setErrorMessage] = useState('')
-  const [defaultOffre, setDefaultOffre] = useState('')
-
-  useEffect(() => {
-    if (!params) return
-    const offre = params.get('offre')
-    if (offre) setDefaultOffre(offre)
-  }, [params])
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -92,7 +69,6 @@ export default function ContactForm() {
           telephone: fullPhone,
           entreprise: String(data.get('entreprise') || ''),
           budget: String(data.get('budget') || ''),
-          offre: String(data.get('offre') || ''),
           creneau: String(data.get('creneau') || ''),
           locale,
           site_source: SITE_SOURCE,
@@ -191,31 +167,14 @@ export default function ContactForm() {
         </div>
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2">
-        <div>
-          <label htmlFor="offre" className="label-field">{t('labelOffre')}</label>
-          <select
-            id="offre"
-            name="offre"
-            key={`offre-${defaultOffre}`}
-            defaultValue={defaultOffre || ''}
-            className="input-field"
-          >
-            <option value="">{t('offreNone')}</option>
-            {OFFRE_KEYS.map((k) => (
-              <option key={k} value={OFFRE_VALUES[k]}>{t(`offres.${k}`)}</option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label htmlFor="creneau" className="label-field">{t('labelCreneau')}</label>
-          <select id="creneau" name="creneau" required defaultValue="" className="input-field">
-            <option value="" disabled>{t('choose')}</option>
-            {CRENEAU_KEYS.map((k) => (
-              <option key={k} value={t(`creneaux.${k}`)}>{t(`creneaux.${k}`)}</option>
-            ))}
-          </select>
-        </div>
+      <div>
+        <label htmlFor="creneau" className="label-field">{t('labelCreneau')}</label>
+        <select id="creneau" name="creneau" required defaultValue="" className="input-field">
+          <option value="" disabled>{t('choose')}</option>
+          {CRENEAU_KEYS.map((k) => (
+            <option key={k} value={t(`creneaux.${k}`)}>{t(`creneaux.${k}`)}</option>
+          ))}
+        </select>
       </div>
 
       <div>

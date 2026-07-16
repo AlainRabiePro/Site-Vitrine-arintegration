@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Secteurs from '@/components/Secteurs'
 import Services from '@/components/Services'
 import Process from '@/components/Process'
+import Realisations from '@/components/Realisations'
 import Stats from '@/components/Stats'
 import Tarifs from '@/components/Tarifs'
 import Apropos from '@/components/Apropos'
@@ -27,6 +28,7 @@ export default async function Home({
         <Services />
         <Process />
         <Stats />
+        <Realisations />
         <Tarifs />
         <Apropos />
         <FAQ />

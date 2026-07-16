@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "AR Intégration — Web- und App-Agentur in Lyon",
-    "description": "Web- und Mobile-Agentur in Lyon. Maßgeschneiderte Websites, iOS/Android-Apps, E-Commerce. DSGVO-konform, in Frankreich gehostet, schnelle Lieferung.",
-    "ogDescription": "Maßgeschneiderte Websites, iOS/Android-Apps, E-Commerce. DSGVO-konform, in Frankreich gehostet, schnelle Lieferung."
+    "title": "Freelance React Native & Next.js Entwickler in Lyon — AR Intégration",
+    "description": "Unabhängiger Freelance-Entwickler in Lyon (Villeurbanne), Frankreich. Mobile Apps mit React Native / Expo und Web-Apps mit Next.js für Agenturen und Startups. Apps im App Store veröffentlicht.",
+    "ogDescription": "Mobile Apps mit React Native / Expo und Web-Apps mit Next.js, von der Architektur bis zur Veröffentlichung in den Stores. Unabhängiger Freelance-Entwickler in Lyon."
   },
   "header": {
     "locationBadge": "Lyon",
@@ -13,67 +13,57 @@
       "apropos": "Über uns",
       "contact": "Kontakt"
     },
-    "cta": "Angebot anfragen",
+    "cta": "Sprechen wir über Ihr Projekt",
     "menuOpen": "Menü öffnen",
     "themeToLight": "Hellen Modus aktivieren",
     "themeToDark": "Dunklen Modus aktivieren"
   },
   "hero": {
-    "badgeStatus": "Verfügbar — Antwort innerhalb 24h",
-    "h1": "Web- und Mobile-Apps, in Lyon entwickelt, für Ihre Kunden gedacht.",
-    "subtitle": "Websites, iOS/Android-Apps, maßgeschneiderter E-Commerce für KMU, Selbstständige und freie Berufe. DSGVO-konform, in Frankreich gehostet, schnelle Lieferung.",
-    "ctaPrimary": "Kostenloses Angebot anfragen",
-    "ctaSecondary": "Preise ansehen",
-    "trustHosting": "🇫🇷 Hosting in Frankreich",
-    "trustRgpd": "🔒 DSGVO by Design",
-    "trustDelivery": "⚡ Sites in 7 Tagen",
-    "trustAvailable": "📞 In 48h verfügbar"
+    "badgeStatus": "Verfügbar — Antwort innerhalb von 24 Std.",
+    "h1": "Freelance React Native & Next.js Entwickler in Lyon",
+    "subtitle": "Ich unterstütze Webagenturen und Startups dabei, ihre mobilen und Web-Anwendungen zu konzipieren, zu entwickeln und zu veröffentlichen — von der Architektur bis zum Go-live in den Stores.",
+    "ctaPrimary": "Sprechen wir über Ihr Projekt",
+    "ctaSecondary": "Meine Projekte ansehen",
+    "trustHosting": "React Native / Expo",
+    "trustRgpd": "Next.js / TypeScript",
+    "trustDelivery": "Supabase / Stripe",
+    "trustAvailable": "Lyon und remote"
   },
   "secteurs": {
-    "kicker": "Branchenlösungen",
-    "title": "Spezialisiert auf mehrere Branchen, achtsam Ihrer Tätigkeit.",
-    "subtitle": "3 dedizierte Branchen-Submarken mit integrierter Compliance (Gesundheits-DSGVO, Anwaltsgeheimnis, französisches Immobilienrecht). Für andere Branchen entwickeln wir die Lösung gemeinsam mit Ihnen.",
-    "medecins": {
-      "name": "Niedergelassene Ärzte",
-      "tagline": "Arzt-, Zahnarzt-, Physio-, Osteopathie-, Hebammenpraxen. DSGVO-konform für Gesundheitsdaten."
+    "kicker": "Branchen",
+    "title": "Die Bereiche, die ich kenne.",
+    "subtitle": "Die Branchen, in denen ich Anwendungen in Produktion gebracht habe.",
+    "btp": {
+      "name": "Bau & Außeneinsätze",
+      "tagline": "Fachanwendungen mit Offline-Modus und Synchronisation (Cordea, SISTEL)."
     },
-    "avocats": {
-      "name": "Anwaltskanzleien",
-      "tagline": "Anwälte, Notare, Juristen. Mit Anwaltsgeheimnis kompatibel (RIN Art. 2)."
+    "sante": {
+      "name": "Gesundheit & Beauty",
+      "tagline": "Endkunden-Apps mit eingebetteter KI-Analyse."
     },
-    "immobilier": {
-      "name": "Immobilienagenturen",
-      "tagline": "Agenturen, Makler, Berater. Sync mit Branchensoftware + Hoguet-Gesetz konform."
-    },
-    "autre": {
-      "name": "Andere Branche?",
-      "tagline": "Restaurants, Handwerker, Coaches, E-Commerce, SaaS, Selbstständige. Wir lieben Herausforderungen."
-    },
-    "ctaExternal": "Dedizierte Seite ansehen",
-    "ctaInternal": "Angebot anfragen"
+    "gestion": {
+      "name": "Dienstleistungen & Betriebsverwaltung",
+      "tagline": "Interne Tools: Fuhrpark, Kundendienst, Rechnungsstellung."
+    }
   },
   "services": {
     "kicker": "Leistungen",
-    "title": "Alles, was Sie für Ihre Online-Präsenz brauchen.",
-    "vitrine": {
-      "title": "Showcase-Websites",
-      "text": "Professionelle responsive Websites, DSGVO-konform, in Frankreich gehostet. Lokales SEO inklusive, Lieferung in 7 Tagen.",
-      "starter": "Ab 690 €"
+    "title": "Woran ich arbeite.",
+    "mobile": {
+      "title": "Mobile App mit React Native / Expo",
+      "text": "Konzeption, Entwicklung und Veröffentlichung von iOS- und Android-Apps: Architektur, Offline-Modus, Zahlungen (RevenueCat, Stripe), Go-live in den Stores."
     },
-    "ecom": {
-      "title": "E-Commerce",
-      "text": "Komplette Online-Shops: Katalog, Warenkorb, Stripe-Bezahlung, Bestandsverwaltung und Back-Office ohne Komplexität.",
-      "starter": "Ab 2.090 €"
+    "web": {
+      "title": "Web-Anwendung mit Next.js",
+      "text": "Web-Apps und SaaS mit Next.js / TypeScript: Oberfläche, API, Supabase-Datenbank, Stripe-Abrechnung."
     },
-    "apps": {
-      "title": "Mobile Apps",
-      "text": "Maßgeschneiderte iOS- und Android-Apps mit Back-Office, Push-Benachrichtigungen, Authentifizierung, integrierter Bezahlung.",
-      "starter": "Ab 3.490 €"
+    "agences": {
+      "title": "Subunternehmertum für Webagenturen",
+      "text": "White-Label-Verstärkung: Ich füge mich in Ihre Prozesse, Ihre Tools und Ihre Fristen ein. NDA möglich."
     },
-    "custom": {
-      "title": "Maßgeschneidert & SaaS",
-      "text": "Komplexe Projekte: SaaS, Dashboards, API-Integrationen, Automatisierung. Individuelles Angebot binnen 48h.",
-      "starter": "Auf Anfrage"
+    "reprise": {
+      "title": "Übernahme und Weiterentwicklung bestehender Apps",
+      "text": "Audit, Stabilisierung und Weiterentwicklung von React-Native- oder Next.js-Anwendungen, die bereits in Produktion sind."
     }
   },
   "process": {
@@ -98,153 +88,60 @@
     }
   },
   "stats": {
-    "kicker": "Verpflichtungen",
-    "title": "Zahlen, die verpflichten — kein Marketing.",
-    "stat1Label": "Durchschnittliche Lieferzeit für Showcase-Site",
-    "stat2Label": "Durchschnittlicher Lighthouse-Score auf gelieferten Sites",
-    "stat3Label": "Hosting in der EU, DSGVO-konform",
-    "stat4Label": "Maximale Bearbeitungsdauer für Änderungswünsche"
+    "kicker": "Konkret",
+    "title": "Überprüfbare Fakten statt Marketingzahlen.",
+    "proof1": "Apps im App Store veröffentlicht",
+    "proof2": "100 % striktes TypeScript",
+    "proof3": "Ansässig in Villeurbanne — Lyon und remote"
   },
   "tarifs": {
     "kicker": "Preise",
-    "title": "Klare Angebote, keine Überraschungen.",
-    "launchBanner": "Launch-Preise <strong>−30 %</strong> · erste 10 Kunden · bis 31. März 2026",
-    "category": {
-      "vitrine": "Showcase-Websites",
-      "ecom": "E-Commerce",
-      "apps": "Mobile Apps"
-    },
-    "vatNotice": "Launch-Preis −30 % · MwSt. nicht anwendbar, Art. 293 B französisches Steuergesetzbuch",
-    "recommended": "Empfohlen",
-    "choose": "Dieses Angebot wählen",
-    "customQuote": "💼 Maßgeschneidertes Projekt, SaaS, Dashboard, API-Integration?",
-    "customQuoteLink": "Individuelles Angebot binnen 48h",
-    "plans": {
-      "siteEssentielle": {
-        "name": "Essentielle Präsenz",
-        "features": [
-          "Responsive 4-seitige Website",
-          "DSGVO-Kontaktformular",
-          "Lokales Google Maps SEO",
-          "1 Jahr Hosting in Frankreich inklusive",
-          "Lieferung in 7 Tagen"
-        ]
-      },
-      "siteConnecte": {
-        "name": "Connected Site",
-        "features": [
-          "Alles aus Essentielle",
-          "Online-Termin-Modul (Calendly)",
-          "Erweiterte Team-Seite",
-          "Kunden-Newsletter",
-          "3 Monate Wartung inklusive"
-        ]
-      },
-      "sitePremium": {
-        "name": "Premium Site",
-        "features": [
-          "Alles aus Connected",
-          "Sicherer Kundenbereich",
-          "Google Calendar-Sync",
-          "3 SEO-Artikel verfasst",
-          "6 Monate Wartung",
-          "2 monatliche Änderungen inklusive"
-        ]
-      },
-      "ecomStarter": {
-        "name": "E-Commerce Starter",
-        "features": [
-          "30-Produkte-Shop",
-          "Sichere Stripe-Zahlung",
-          "Komplettes Back-Office",
-          "Mobile-first",
-          "1 Jahr Hosting in Frankreich"
-        ]
-      },
-      "ecomPro": {
-        "name": "E-Commerce Pro",
-        "features": [
-          "Alles aus Starter",
-          "Unbegrenzter Katalog",
-          "Kundenbereich + Bestellverfolgung",
-          "Multi-Bezahlung (Karte, Apple Pay)",
-          "Automatisierter Newsletter",
-          "3 Monate Wartung"
-        ]
-      },
-      "appMvp": {
-        "name": "App MVP",
-        "features": [
-          "iOS + Android (Cross-Platform)",
-          "5 Hauptbildschirme",
-          "Auth + Back-Office",
-          "Veröffentlichung App Store + Play Store",
-          "Lieferung in 4 Wochen"
-        ]
-      },
-      "appPro": {
-        "name": "App Pro",
-        "features": [
-          "Alles aus MVP",
-          "Push-Benachrichtigungen",
-          "Integrierte Zahlungen",
-          "Custom API + Integrationen",
-          "Lieferung in 8 Wochen",
-          "6 Monate Wartung"
-        ]
-      }
-    }
+    "title": "Preisgestaltung",
+    "intro": "Ich arbeite auf Zeitbasis (Tagessatz ab 300 € / Tag, je nach Auftrag und Dauer) oder zum Festpreis für einen definierten Umfang. Schriftliches Angebot innerhalb von 48 Std. nach einem ersten Gespräch.",
+    "point1": "Agentur-Subunternehmertum: angepasster Satz bei wiederkehrender Zusammenarbeit",
+    "point2": "Festpreis: Umfang, Preis und Termin werden vor dem Start festgelegt",
+    "point3": "Ohne Überraschungen: Alles wird vor Beginn schriftlich bestätigt."
   },
   "apropos": {
-    "kicker": "Über uns",
-    "title": "Ein Einzelunternehmer, der programmiert, in Lyon.",
-    "intro1": "AR Intégration ist <strong>Alain Rabie</strong>, Web- und Mobile-Entwickler in Villeurbanne (Lyon).",
-    "intro2": "Mein Prinzip: keine leeren Versprechen, kein Fachjargon, keine versteckten Kosten. Direktes Gespräch, klares Angebot, sauberer Code, schnelle Lieferung. Und dahinter ein erreichbarer Mensch für jede zukünftige Änderung.",
-    "infoSiret": "SIRET",
-    "infoStatut": "Status",
-    "infoStatutValue": "Selbstständig (MwSt. nicht anwendbar)",
-    "infoAdresse": "Adresse",
-    "infoAdresseValue": "Villeurbanne, Lyon (69100)",
-    "infoZone": "Einsatzgebiet",
-    "infoZoneValue": "Lyon, Metropolregion, Auvergne-Rhône-Alpes, ganz Frankreich (Videocall)",
+    "kicker": "Über mich",
+    "title": "Unabhängiger Freelance-Entwickler in Lyon",
+    "intro1": "Ich bin <strong>Alain Rabie</strong>, Freelance-Entwickler mit Sitz in Villeurbanne. Ich konzipiere und entwickle mobile Apps (React Native, Expo) und Web-Apps (Next.js) in striktem TypeScript, mit Supabase und Stripe/RevenueCat in Produktion.",
+    "intro2": "Ich arbeite als Subunternehmer für Webagenturen und als Verstärkung für die Technikteams von Startups, in Lyon oder remote.",
     "pillar1": {
-      "title": "Lyon, persönlich",
-      "text": "Einzelunternehmer in Villeurbanne (69100). Keine ausgelagerte Hotline, keine Offshore-Agentur: Sie sprechen direkt mit Ihrem Entwickler."
+      "title": "Lyon, direkt",
+      "text": "Ansässig in Villeurbanne (69100). Kein Vermittler, kein Offshore: Sie sprechen direkt mit dem Entwickler, der den Code schreibt."
     },
     "pillar2": {
-      "title": "Maßgeschneiderter Code",
-      "text": "Kein WordPress / Wix / Shopify. Moderner Stack (Next.js, TypeScript, Tailwind) für schnelle, sichere, DSGVO-by-Design-Websites."
+      "title": "Striktes TypeScript",
+      "text": "React Native / Expo für Mobile, Next.js für Web. Striktes TypeScript, Supabase, Stripe und RevenueCat in Produktion."
     },
     "pillar3": {
-      "title": "Langfristige Verpflichtung",
-      "text": "Keine 'Wegwerf-Site': Wartung 200€/Monat, Änderungen binnen 48h, keine Provision, 100% Eigentum an Code und Daten."
-    }
+      "title": "Bis in die Stores",
+      "text": "Von der Architektur bis zur Veröffentlichung: EAS-Builds, Einreichung im App Store und bei Google Play, Update-Betreuung."
+    },
+    "photoAlt": "Alain Rabie, Freelance React Native und Next.js Entwickler in Lyon"
   },
   "faq": {
     "kicker": "FAQ",
-    "title": "Häufig gestellte Fragen.",
-    "q1": "Wie viel kostet eine professionelle Website?",
-    "a1": "Eine professionelle Showcase-Website bei AR Intégration startet bei 690€ (Launch-Preis) für Essentielle Präsenz, 1.050€ für Connected mit Termin-Modul, 1.750€ für Premium mit Kundenbereich. Ein E-Commerce-Shop startet bei 2.090€, eine mobile App bei 3.490€.",
-    "q2": "Wie lange dauert die Lieferung meiner Website oder App?",
-    "a2": "7 Werktage für eine Showcase-Site Essentielle Präsenz. 10 Tage für Connected, 15 Tage für Premium. 4 bis 8 Wochen für eine mobile App je nach Komplexität. Vertragliche Verpflichtung.",
-    "q3": "Wird meine Site bei Google gut ranken?",
-    "a3": "Ja. Lokales SEO inklusive (Google My Business, Schema.org, Meta-Tags). Sites mit Next.js und statischem Export für Lighthouse-Scores 95+. Für fortgeschrittenes nationales SEO können maßgeschneiderte SEO-Artikel hinzugefügt werden.",
-    "q4": "Werden meine Daten in Frankreich gehostet?",
-    "a4": "Ja. OVHcloud Roubaix oder Strasbourg Hosting auf dedizierter Option (oder Vercel Edge Region Europa als Standard). DSGVO-by-Design-Konformität, keine US-Drittanbieter-Dienste (Google Analytics, Facebook Pixel) ohne Ihre ausdrückliche Zustimmung.",
-    "q5": "Kann ich meine Site selbst bearbeiten?",
-    "a5": "Nein, AR Intégration-Websites sind maßgeschneidert programmiert (kein WordPress-CMS) — das garantiert Geschwindigkeit, Sicherheit und DSGVO-Konformität. Änderungen werden von AR Intégration binnen 48 Werktagsstunden im Rahmen des Wartungsvertrags abgewickelt (200€/Monat nach den 3 inklusiven Monaten).",
-    "q6": "Arbeiten Sie mit bestimmten Branchen?",
-    "a6": "Ja. Drei dedizierte Branchen-Submarken mit integrierter Compliance: medecins.arintegration.fr (Gesundheits-DSGVO), avocats.arintegration.fr (Anwaltsgeheimnis), immobilier.arintegration.fr (Hoguet-Gesetz, Sync mit Branchensoftware). Und alle anderen Branchen auf arintegration.fr.",
-    "q7": "Was ist der Unterschied zu einer klassischen Agentur oder Wix / Shopify?",
-    "a7": "Wix und Shopify sind Mietplattformen: Sie besitzen den Code nicht, SEO ist begrenzt, DSGVO nicht garantiert. Eine klassische Agentur berechnet oft das 5-10-fache. AR Intégration: Sie besitzen 100%, performanten maßgeschneiderten Code, und einen direkt erreichbaren Menschen in Lyon.",
-    "q8": "Akzeptieren Sie Bezahlung mit Geschäftskreditkarte?",
-    "a8": "Ja. Karte, Überweisung, oder Ratenzahlung in 3 Raten ohne Gebühren auf Anfrage. 30% Anzahlung bei Bestellung, Restbetrag bei Lieferung."
+    "title": "Häufige Fragen.",
+    "q1": "Arbeiten Sie als White-Label für Agenturen?",
+    "a1": "Ja: Ihre Tools, Ihre Prozesse, NDA bei Bedarf; Ihr Kunde sieht ausschließlich Sie.",
+    "q2": "Sind Sie vor Ort verfügbar?",
+    "a2": "In Lyon und der Metropolregion punktuell vor Ort; remote für das übrige Frankreich.",
+    "q3": "Wem gehört der Code?",
+    "a3": "Ihnen. Vollständige Rechteübertragung bei Schlusszahlung, Repository wird übergeben.",
+    "q4": "Wie läuft ein Auftrag ab?",
+    "a4": "Schriftliches Scoping, Meilensteine, Abnahme, Go-live — mit mindestens einem wöchentlichen Fortschrittsupdate.",
+    "q5": "Welche Technologien setzen Sie ein?",
+    "a5": "React Native / Expo, Next.js, striktes TypeScript, Supabase, Stripe / RevenueCat. Aufträge außerhalb dieses Rahmens nehme ich nicht an.",
+    "q6": "Wie fangen wir an?",
+    "a6": "Ein 30-minütiges Gespräch, ein schriftliches Angebot, eine Anzahlung, und die Entwicklung beginnt."
   },
   "contact": {
     "section": {
-      "kicker": "Kostenloses Angebot · Unverbindlich",
+      "kicker": "Erstes Gespräch · Unverbindlich",
       "h2": "Sprechen wir über Ihr Projekt.",
-      "subtitle": "Lassen Sie uns 15 Minuten telefonieren. Unverbindlich, ohne Schnickschnack. Antwort binnen <strong>24 Werktagsstunden</strong>.",
+      "subtitle": "Nehmen wir uns 30 Minuten, um Ihren Bedarf abzustecken. Antwort innerhalb von 24 Arbeitsstunden.",
       "phoneLabel": "Direktes Telefon",
       "emailLabel": "E-Mail",
       "addressLabel": "Adresse",
@@ -257,7 +154,6 @@
       "labelEntreprise": "Unternehmen (optional)",
       "labelType": "Projekttyp",
       "labelBudget": "Geplantes Budget",
-      "labelOffre": "Interessantes Angebot (optional)",
       "labelCreneau": "Bevorzugte Anrufzeit",
       "labelMessage": "Beschreiben Sie Ihr Projekt (optional)",
       "labelIndicatif": "Ländervorwahl",
@@ -269,16 +165,14 @@
       "rgpd": "Ich stimme zu, dass meine Daten ausschließlich verwendet werden, um mich im Rahmen dieser Anfrage zu kontaktieren. Ich kann meine DSGVO-Rechte jederzeit ausüben unter",
       "phoneAlt": "Lieber direkt sprechen?",
       "successTitle": "Danke.",
-      "successText": "Wir rufen Sie binnen 24 Werktagsstunden unter der angegebenen Nummer zurück.",
+      "successText": "Ich melde mich innerhalb von 24 Arbeitsstunden.",
       "errorFallback": "Ein Fehler ist aufgetreten. Versuchen Sie es erneut oder schreiben Sie an contact@arintegration.fr.",
-      "offreNone": "Kein spezifisches Angebot",
       "types": {
-        "vitrine": "Showcase-Website",
-        "ecom": "E-Commerce-Site",
-        "app": "Mobile App (iOS/Android)",
-        "saas": "SaaS / Dashboard",
-        "refonte": "Redesign bestehender Site",
-        "autre": "Beratung / sonstiges"
+        "mobile": "Mobile App React Native / Expo",
+        "web": "Web-App / SaaS Next.js",
+        "agence": "Subunternehmertum für Webagentur",
+        "reprise": "Übernahme einer bestehenden App",
+        "autre": "Beratung / Sonstiges"
       },
       "budgets": {
         "b1": "< 1.500 €",
@@ -293,42 +187,30 @@
         "c2": "Mittags (12-14 Uhr)",
         "c3": "Tagesende (17-19 Uhr)",
         "c4": "Abend (nach 19 Uhr)"
-      },
-      "offres": {
-        "siteEssentielle": "Essentielle Site (690€ Launch)",
-        "siteConnecte": "Connected Site (1.050€ Launch)",
-        "sitePremium": "Premium Site (1.750€ Launch)",
-        "ecomStarter": "E-Commerce Starter (2.090€ Launch)",
-        "ecomPro": "E-Commerce Pro (3.490€ Launch)",
-        "appMvp": "App MVP (3.490€ Launch)",
-        "appPro": "App Pro (6.990€ Launch)",
-        "surMesure": "Maßgeschneidertes Projekt / SaaS",
-        "autre": "Weiß ich noch nicht"
       }
     }
   },
   "footer": {
-    "tagline": "Web- und Mobile-Agentur in Lyon. Websites, iOS/Android-Apps, maßgeschneiderter E-Commerce.",
-    "secteurs": {
-      "title": "Branchen",
-      "medecins": "Sites für Ärzte",
-      "avocats": "Sites für Anwälte",
-      "immo": "Sites für Immobilienagenturen",
-      "autre": "Andere Branche"
+    "tagline": "Unabhängiger Freelance-Entwickler in Lyon (Villeurbanne). Mobile Apps mit React Native / Expo und Web-Apps mit Next.js für Agenturen und Startups.",
+    "navigation": {
+      "title": "Navigation",
+      "services": "Leistungen",
+      "realisations": "Projekte",
+      "tarification": "Preisgestaltung",
+      "faq": "FAQ",
+      "contact": "Kontakt"
     },
     "services": {
       "title": "Leistungen",
-      "vitrine": "Showcase-Sites",
-      "ecom": "E-Commerce",
-      "apps": "Mobile Apps",
-      "custom": "Maßgeschneidert / SaaS"
+      "mobile": "Mobile App",
+      "web": "Web-App / SaaS",
+      "agences": "Agentur-Subunternehmertum",
+      "reprise": "App-Übernahme"
     },
     "ressources": {
       "title": "Ressourcen",
       "process": "Methode",
-      "apropos": "Über uns",
-      "faq": "FAQ",
-      "contact": "Kontakt"
+      "apropos": "Über mich"
     },
     "legal": {
       "mentions": "Impressum",
@@ -336,7 +218,7 @@
       "cgv": "AGB",
       "rgpd": "DSGVO-Kontakt"
     },
-    "copyright": "© 2026 AR Intégration · Konzipiert und programmiert in Lyon · Hosting in Frankreich"
+    "copyright": "© 2026 AR Intégration · Unabhängiger Freelance-Entwickler in Villeurbanne, Lyon"
   },
   "language": {
     "fr": "Français",
@@ -345,5 +227,28 @@
     "de": "Deutsch",
     "it": "Italiano",
     "switcherLabel": "Sprache wechseln"
+  },
+  "realisations": {
+    "kicker": "Projekte",
+    "title": "Drei Projekte in Produktion.",
+    "subtitle": "Mobile und Web-Anwendungen, die ich konzipiert, entwickelt und in Produktion gebracht habe.",
+    "cordea": {
+      "name": "Cordea",
+      "cat": "B2B-SaaS — Mobile",
+      "desc1": "B2B-SaaS für Baustellen- und Lagerverwaltung in der Baubranche.",
+      "desc2": "Im App Store verfügbar."
+    },
+    "sistel": {
+      "name": "SISTEL",
+      "cat": "iOS-Anwendung",
+      "desc1": "iOS-App zur Verwaltung von Außeneinsätzen für einen Industriekunden.",
+      "desc2": "Vollständiger Offline-Modus, Synchronisation und Excel-Export."
+    },
+    "subflow": {
+      "name": "SubFlow",
+      "cat": "Web-SaaS",
+      "desc1": "Web-SaaS für die Verwaltung von Subunternehmen.",
+      "desc2": "Elektronische Rechnungsstellung im Factur-X-Format."
+    }
   }
 }

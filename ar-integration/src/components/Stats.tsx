@@ -1,13 +1,9 @@
+// src/components/Stats.tsx
 import { useTranslations } from 'next-intl'
 import { Reveal } from './Reveal'
-import { AnimatedStat } from './AnimatedStat'
 
-const STATS = [
-  { value: 7, suffix: ' j' },
-  { value: 98, suffix: '/100' },
-  { value: 100, suffix: '%' },
-  { value: 48, suffix: ' h' },
-] as const
+// Preuves vérifiables uniquement — aucune statistique non sourçable.
+const PROOFS = ['proof1', 'proof2', 'proof3'] as const
 
 export default function Stats() {
   const t = useTranslations('stats')
@@ -23,14 +19,13 @@ export default function Stats() {
           </h2>
         </Reveal>
 
-        <div className="mt-12 grid gap-px overflow-hidden rounded-2xl bg-white/10 sm:grid-cols-2 lg:grid-cols-4">
-          {STATS.map((stat, i) => (
-            <Reveal key={i} delay={i * 0.08}>
+        <div className="mt-12 grid gap-px overflow-hidden rounded-2xl bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
+          {PROOFS.map((key, i) => (
+            <Reveal key={key} delay={i * 0.08}>
               <div className="h-full bg-ink-soft p-8">
-                <div className="text-[44px] font-bold leading-none tracking-tight text-white md:text-[52px]">
-                  <AnimatedStat value={stat.value} suffix={stat.suffix} />
-                </div>
-                <p className="mt-4 text-[14px] leading-relaxed text-white/65">{t(`stat${i + 1}Label`)}</p>
+                <p className="text-[22px] font-semibold leading-snug tracking-tight text-white md:text-[24px]">
+                  {t(key)}
+                </p>
               </div>
             </Reveal>
           ))}

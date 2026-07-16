@@ -1,12 +1,13 @@
+// src/components/Services.tsx
 import { useTranslations } from 'next-intl'
-import { Globe, Smartphone, ShoppingBag, Code2 } from 'lucide-react'
+import { Globe, Smartphone, Users, RefreshCw } from 'lucide-react'
 import { Reveal } from './Reveal'
 
 const SERVICES = [
-  { key: 'vitrine', icon: Globe },
-  { key: 'ecom', icon: ShoppingBag },
-  { key: 'apps', icon: Smartphone },
-  { key: 'custom', icon: Code2 },
+  { key: 'mobile', icon: Smartphone },
+  { key: 'web', icon: Globe },
+  { key: 'agences', icon: Users },
+  { key: 'reprise', icon: RefreshCw },
 ] as const
 
 export default function Services() {
@@ -34,9 +35,6 @@ export default function Services() {
                   </div>
                   <h3 className="text-[17px] font-semibold tracking-tight text-ink dark:text-white">{t(`${service.key}.title`)}</h3>
                   <p className="mt-2 flex-1 text-[14px] leading-relaxed text-muted dark:text-white/65">{t(`${service.key}.text`)}</p>
-                  <div className="mt-5 text-[13px] font-medium text-ink dark:text-white">
-                    {t(`${service.key}.starter`)}
-                  </div>
                 </article>
               </Reveal>
             )

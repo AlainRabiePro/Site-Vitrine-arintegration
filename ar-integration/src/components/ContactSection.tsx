@@ -23,10 +23,9 @@ export default function ContactSection() {
             </Reveal>
 
             <Reveal delay={0.1}>
-              <p
-                className="mt-6 text-[17px] leading-relaxed text-white/70"
-                dangerouslySetInnerHTML={{ __html: t.raw('subtitle') as string }}
-              />
+              <p className="mt-6 text-[17px] leading-relaxed text-white/70">
+                {t('subtitle')}
+              </p>
             </Reveal>
 
             <Reveal delay={0.2}>

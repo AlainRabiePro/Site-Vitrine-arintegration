@@ -73,7 +73,7 @@ export default async function MentionsLegales({
 
           <div className="mt-10">
             <Section title="Éditeur du site">
-              <Row label="Raison sociale" value="AR Intégration (auto-entreprise)" />
+              <Row label="Raison sociale" value="AR Intégration (entreprise individuelle)" />
               <Row label="Représentant légal" value="Alain Rabie" />
               <Row label="SIRET" value="102 520 624 00010" />
               <Row label="Adresse" value="Villeurbanne, Lyon, France" />

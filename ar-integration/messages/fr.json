@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "AR Intégration — Agence web et apps mobiles à Lyon",
-    "description": "Agence web et mobile à Lyon. Sites internet sur-mesure, applications iOS/Android, e-commerce. Conformes RGPD, hébergés en France, livrés rapidement.",
-    "ogDescription": "Sites internet sur-mesure, applications iOS/Android, e-commerce. Conformes RGPD, hébergés en France, livrés rapidement."
+    "title": "Développeur freelance React Native & Next.js à Lyon — AR Intégration",
+    "description": "Développeur freelance indépendant à Lyon (Villeurbanne). Applications mobiles React Native / Expo et web Next.js pour agences et startups. Applications publiées sur l'App Store.",
+    "ogDescription": "Applications mobiles React Native / Expo et web Next.js, de l'architecture à la publication sur les stores. Développeur freelance indépendant à Lyon."
   },
   "header": {
     "locationBadge": "Lyon",
@@ -13,67 +13,57 @@
       "apropos": "À propos",
       "contact": "Contact"
     },
-    "cta": "Demander un devis",
+    "cta": "Discutons de votre projet",
     "menuOpen": "Ouvrir le menu",
     "themeToLight": "Activer le mode clair",
     "themeToDark": "Activer le mode sombre"
   },
   "hero": {
     "badgeStatus": "Disponible — réponse sous 24h",
-    "h1": "Agence web et apps mobiles, conçues à Lyon, pensées pour vos clients.",
-    "subtitle": "Sites internet, applications mobiles iOS/Android, e-commerce sur-mesure pour PME, indépendants et professions libérales. Conformes RGPD, hébergés en France, livrés rapidement.",
-    "ctaPrimary": "Demander un devis gratuit",
-    "ctaSecondary": "Voir nos tarifs",
-    "trustHosting": "🇫🇷 Hébergement France",
-    "trustRgpd": "🔒 RGPD by design",
-    "trustDelivery": "⚡ Sites livrés en 7 jours",
-    "trustAvailable": "📞 Disponible en 48h"
+    "h1": "Développeur freelance React Native & Next.js à Lyon",
+    "subtitle": "J'aide les agences web et les startups à concevoir, développer et publier leurs applications mobiles et web — de l'architecture à la mise en production sur les stores.",
+    "ctaPrimary": "Discutons de votre projet",
+    "ctaSecondary": "Voir mes réalisations",
+    "trustHosting": "React Native / Expo",
+    "trustRgpd": "Next.js / TypeScript",
+    "trustDelivery": "Supabase / Stripe",
+    "trustAvailable": "Lyon et remote"
   },
   "secteurs": {
-    "kicker": "Solutions par secteur",
-    "title": "Spécialisés dans plusieurs métiers, attentifs à votre activité.",
-    "subtitle": "3 sous-marques sectorielles avec contraintes métier intégrées (RGPD santé, secret pro, loi Hoguet). Pour les autres secteurs, on construit la solution avec vous.",
-    "medecins": {
-      "name": "Médecins libéraux",
-      "tagline": "Cabinets médicaux, dentaires, kinés, ostéos, sages-femmes. Conforme RGPD santé."
+    "kicker": "Secteurs",
+    "title": "Les domaines que je connais.",
+    "subtitle": "Les secteurs sur lesquels j’ai livré des applications en production.",
+    "btp": {
+      "name": "BTP & interventions terrain",
+      "tagline": "Apps métier avec mode hors-ligne et synchronisation (Cordea, SISTEL)."
     },
-    "avocats": {
-      "name": "Cabinets d'avocats",
-      "tagline": "Avocats, notaires, juristes. Compatible secret professionnel (RIN art. 2)."
+    "sante": {
+      "name": "Santé & beauté",
+      "tagline": "Applications grand public avec analyse IA embarquée."
     },
-    "immobilier": {
-      "name": "Agences immobilières",
-      "tagline": "Agences, mandataires, conseillers. Sync logiciel métier + conforme loi Hoguet."
-    },
-    "autre": {
-      "name": "Autre secteur ?",
-      "tagline": "Restaurateurs, artisans, coachs, e-commerce, SaaS, indépendants. On adore les défis."
-    },
-    "ctaExternal": "Voir le site dédié",
-    "ctaInternal": "Demander un devis"
+    "gestion": {
+      "name": "Services & gestion d’activité",
+      "tagline": "Outils internes : flotte, SAV, facturation."
+    }
   },
   "services": {
     "kicker": "Services",
-    "title": "Tout ce dont vous avez besoin pour exister en ligne.",
-    "vitrine": {
-      "title": "Sites vitrine",
-      "text": "Sites web professionnels responsive, conformes RGPD, hébergés en France. SEO local inclus, livrés en 7 jours.",
-      "starter": "À partir de 690 €"
+    "title": "Ce sur quoi j’interviens.",
+    "mobile": {
+      "title": "Application mobile React Native / Expo",
+      "text": "Conception, développement et publication d'applications iOS et Android : architecture, mode hors-ligne, paiements (RevenueCat, Stripe), mise en production sur les stores."
     },
-    "ecom": {
-      "title": "E-commerce",
-      "text": "Boutiques en ligne complètes : catalogue, panier, paiement Stripe, gestion stocks et back-office sans complexité.",
-      "starter": "À partir de 2 090 €"
+    "web": {
+      "title": "Application web Next.js",
+      "text": "Applications web et SaaS en Next.js / TypeScript : interface, API, base de données Supabase, facturation Stripe."
     },
-    "apps": {
-      "title": "Applications mobiles",
-      "text": "Apps iOS et Android sur-mesure, avec back-office, notifications push, authentification, paiement intégré.",
-      "starter": "À partir de 3 490 €"
+    "agences": {
+      "title": "Sous-traitance pour agences web",
+      "text": "Renfort en marque blanche : je m’intègre à vos process, vos outils et vos délais. NDA possible."
     },
-    "custom": {
-      "title": "Sur-mesure & SaaS",
-      "text": "Projets complexes : SaaS, dashboards, intégrations API, automatisation. Devis personnalisé sous 48h.",
-      "starter": "Sur devis"
+    "reprise": {
+      "title": "Reprise et évolution d’application existante",
+      "text": "Audit, stabilisation et évolution d’applications React Native ou Next.js déjà en production."
     }
   },
   "process": {
@@ -98,153 +88,60 @@
     }
   },
   "stats": {
-    "kicker": "Engagements",
-    "title": "Des chiffres qui engagent, pas du marketing.",
-    "stat1Label": "Délai moyen de livraison d'un site vitrine",
-    "stat2Label": "Score Lighthouse moyen sur les sites livrés",
-    "stat3Label": "Hébergement Union Européenne, conforme RGPD",
-    "stat4Label": "Délai max pour traiter une demande de modification"
+    "kicker": "Concrètement",
+    "title": "Des faits vérifiables, pas des chiffres marketing.",
+    "proof1": "Applications publiées sur l'App Store",
+    "proof2": "100 % TypeScript strict",
+    "proof3": "Basé à Villeurbanne — Lyon et remote"
   },
   "tarifs": {
     "kicker": "Tarifs",
-    "title": "Des offres claires, sans surprise.",
-    "launchBanner": "Tarifs de lancement <strong>−30 %</strong> · 10 premiers clients · jusqu'au 31 mars 2026",
-    "category": {
-      "vitrine": "Sites vitrine",
-      "ecom": "E-commerce",
-      "apps": "Applications mobiles"
-    },
-    "vatNotice": "Tarif lancement −30 % · TVA non applicable, art. 293 B du CGI",
-    "recommended": "Recommandé",
-    "choose": "Choisir cette offre",
-    "customQuote": "💼 Projet sur-mesure, SaaS, dashboard, intégration API ?",
-    "customQuoteLink": "Devis personnalisé sous 48h",
-    "plans": {
-      "siteEssentielle": {
-        "name": "Présence Essentielle",
-        "features": [
-          "Site 4 pages responsive",
-          "Formulaire contact RGPD",
-          "Référencement local Google Maps",
-          "Hébergement France 1 an inclus",
-          "Livré en 7 jours"
-        ]
-      },
-      "siteConnecte": {
-        "name": "Site Connecté",
-        "features": [
-          "Tout de l'offre Essentielle",
-          "Module RDV en ligne (Calendly)",
-          "Page équipe étendue",
-          "Newsletter clients",
-          "3 mois de maintenance inclus"
-        ]
-      },
-      "sitePremium": {
-        "name": "Site Premium",
-        "features": [
-          "Tout de l'offre Connecté",
-          "Espace client sécurisé",
-          "Synchronisation Google Calendar",
-          "3 articles SEO rédigés",
-          "6 mois de maintenance",
-          "2 modifications par mois"
-        ]
-      },
-      "ecomStarter": {
-        "name": "E-commerce Starter",
-        "features": [
-          "Boutique 30 produits",
-          "Paiement Stripe sécurisé",
-          "Back-office complet",
-          "Mobile-first",
-          "Hébergement France 1 an"
-        ]
-      },
-      "ecomPro": {
-        "name": "E-commerce Pro",
-        "features": [
-          "Tout de l'offre Starter",
-          "Catalogue illimité",
-          "Espace client + suivi commandes",
-          "Multi-paiements (CB, Apple Pay)",
-          "Newsletter automatisée",
-          "3 mois de maintenance"
-        ]
-      },
-      "appMvp": {
-        "name": "App MVP",
-        "features": [
-          "iOS + Android (cross-platform)",
-          "5 écrans principaux",
-          "Auth + back-office",
-          "Publication App Store + Play Store",
-          "Livré en 4 semaines"
-        ]
-      },
-      "appPro": {
-        "name": "App Pro",
-        "features": [
-          "Tout de l'offre MVP",
-          "Notifications push",
-          "Paiements intégrés",
-          "API custom + intégrations",
-          "Livré en 8 semaines",
-          "6 mois de maintenance"
-        ]
-      }
-    }
+    "title": "Tarification",
+    "intro": "J'interviens en régie (TJM à partir de 300 € / jour selon la mission et sa durée) ou au forfait sur un périmètre défini. Proposition écrite sous 48 h après un premier échange.",
+    "point1": "Sous-traitance agence : tarif adapté sur engagement récurrent",
+    "point2": "Forfait : périmètre, prix et délai fixés avant démarrage",
+    "point3": "Sans surprise : tout est validé par écrit avant de commencer."
   },
   "apropos": {
     "kicker": "À propos",
-    "title": "Une auto-entreprise qui code, à Lyon.",
-    "intro1": "AR Intégration, c'est <strong>Alain Rabie</strong>, développeur web et mobile basé à Villeurbanne (Lyon).",
-    "intro2": "Mon principe : pas de promesses creuses, pas de jargon, pas de coûts cachés. Un échange direct, un devis clair, un code propre, une livraison rapide. Et derrière, un humain joignable pour chaque évolution future.",
-    "infoSiret": "SIRET",
-    "infoStatut": "Statut",
-    "infoStatutValue": "Auto-entrepreneur (TVA non applicable)",
-    "infoAdresse": "Adresse",
-    "infoAdresseValue": "Villeurbanne, Lyon (69100)",
-    "infoZone": "Zone",
-    "infoZoneValue": "Lyon, métropole, Auvergne-Rhône-Alpes, France entière (visio)",
+    "title": "Développeur freelance indépendant à Lyon",
+    "intro1": "Je suis <strong>Alain Rabie</strong>, développeur freelance basé à Villeurbanne. Je conçois et développe des applications mobiles (React Native, Expo) et web (Next.js) en TypeScript strict, avec Supabase et Stripe/RevenueCat en production.",
+    "intro2": "J'interviens en sous-traitance pour des agences web et en renfort d'équipes techniques de startups, à Lyon ou à distance.",
     "pillar1": {
-      "title": "Lyon, en personne",
-      "text": "Auto-entreprise basée à Villeurbanne (69100). Pas de hotline délocalisée, pas d'agence offshore : vous parlez directement avec votre développeur."
+      "title": "Lyon, en direct",
+      "text": "Basé à Villeurbanne (69100). Pas d'intermédiaire, pas d'offshore : vous parlez directement au développeur qui écrit le code."
     },
     "pillar2": {
-      "title": "Code sur-mesure",
-      "text": "Pas de WordPress / Wix / Shopify. Stack moderne (Next.js, TypeScript, Tailwind) pour des sites rapides, sécurisés, conformes RGPD by design."
+      "title": "TypeScript strict",
+      "text": "React Native / Expo pour le mobile, Next.js pour le web. TypeScript strict, Supabase, Stripe et RevenueCat en production."
     },
     "pillar3": {
-      "title": "Engagement long terme",
-      "text": "Pas de \"site jetable\" : maintenance 200€/mois, modifications sous 48h, pas de commission, 100% propriétaire de votre code et de vos données."
-    }
+      "title": "Jusqu’aux stores",
+      "text": "De l'architecture à la publication : build EAS, soumission App Store et Google Play, suivi des mises à jour."
+    },
+    "photoAlt": "Alain Rabie, développeur freelance React Native et Next.js à Lyon"
   },
   "faq": {
     "kicker": "FAQ",
     "title": "Questions fréquentes.",
-    "q1": "Combien coûte un site internet professionnel ?",
-    "a1": "Un site vitrine professionnel chez AR Intégration démarre à 690€ TTC en tarif lancement (Présence Essentielle), 1050€ pour un site Connecté avec module RDV, 1750€ pour un site Premium avec espace client. Une boutique e-commerce démarre à 2090€, une application mobile à 3490€.",
-    "q2": "Combien de temps pour livrer mon site web ou mon app ?",
-    "a2": "7 jours ouvrés pour un site vitrine Présence Essentielle. 10 jours pour Connecté, 15 jours pour Premium. 4 à 8 semaines pour une application mobile selon complexité. Engagement contractuel.",
-    "q3": "Mon site sera-t-il bien référencé sur Google ?",
-    "a3": "Oui. Optimisation SEO local incluse (Google My Business, Schema.org, balises meta). Sites construits avec Next.js et export statique pour des scores Lighthouse 95+. Pour un référencement national avancé, des articles SEO sur-mesure peuvent être ajoutés.",
-    "q4": "Mes données seront-elles hébergées en France ?",
-    "a4": "Oui. Hébergement OVHcloud Roubaix ou Strasbourg sur option dédiée (ou Vercel Edge région Europe en standard). Conformité RGPD by design, aucun service tiers américain (Google Analytics, Facebook Pixel) sans votre consentement explicite.",
-    "q5": "Puis-je modifier mon site moi-même ?",
-    "a5": "Non, les sites AR Intégration sont codés sur-mesure (sans CMS type WordPress) — c'est ce qui garantit leur rapidité, leur sécurité et leur conformité RGPD. Les modifications sont prises en charge par AR Intégration sous 48h ouvrées dans le cadre du contrat de maintenance (200€/mois après les 3 mois inclus).",
-    "q6": "Travaillez-vous avec des secteurs spécifiques ?",
-    "a6": "Oui. Trois sous-marques sectorielles dédiées avec contraintes métier intégrées : medecins.arintegration.fr (RGPD santé, mention HDS), avocats.arintegration.fr (secret professionnel, RIN), immobilier.arintegration.fr (loi Hoguet, sync logiciel métier). Et tous les autres secteurs sur arintegration.fr.",
-    "q7": "Quelle est la différence avec une agence classique ou Wix / Shopify ?",
-    "a7": "Wix et Shopify sont des plateformes locataires : vous n'êtes pas propriétaire du code, le SEO est limité, et le RGPD non garanti. Une agence classique facture souvent 5-10x plus cher. AR Intégration : vous êtes propriétaire à 100%, code sur-mesure performant, et un humain joignable directement à Lyon.",
-    "q8": "Acceptez-vous le règlement par carte bancaire pro ?",
-    "a8": "Oui. CB, virement, ou prélèvement échelonné en 3 fois sans frais sur demande. Acompte de 30% à la commande, solde à la livraison."
+    "q1": "Travaillez-vous en marque blanche pour des agences ?",
+    "a1": "Oui : vos outils, vos process, NDA si besoin ; votre client ne voit que vous.",
+    "q2": "Êtes-vous disponible sur site ?",
+    "a2": "À Lyon et sa métropole en présentiel ponctuel ; en remote pour le reste de la France.",
+    "q3": "Qui est propriétaire du code ?",
+    "a3": "Vous. Cession complète des droits au paiement final, repo transféré.",
+    "q4": "Comment se déroule une mission ?",
+    "a4": "Cadrage écrit, jalons, recette, mise en production — avec un point d’avancement hebdomadaire minimum.",
+    "q5": "Quelles technologies utilisez-vous ?",
+    "a5": "React Native / Expo, Next.js, TypeScript strict, Supabase, Stripe / RevenueCat. Je ne prends pas de mission hors de ce périmètre.",
+    "q6": "Comment démarre-t-on ?",
+    "a6": "Un échange de 30 minutes, une proposition écrite, un acompte, et le développement commence."
   },
   "contact": {
     "section": {
-      "kicker": "Devis gratuit · Sans engagement",
+      "kicker": "Premier échange · Sans engagement",
       "h2": "Parlons de votre projet.",
-      "subtitle": "Échangeons 15 minutes par téléphone. Sans engagement, sans bullshit. Réponse sous <strong>24h ouvrées</strong>.",
+      "subtitle": "Échangeons 30 minutes pour cadrer votre besoin. Réponse sous 24 h ouvrées.",
       "phoneLabel": "Téléphone direct",
       "emailLabel": "Email",
       "addressLabel": "Adresse",
@@ -257,7 +154,6 @@
       "labelEntreprise": "Entreprise (facultatif)",
       "labelType": "Type de projet",
       "labelBudget": "Budget envisagé",
-      "labelOffre": "Offre intéressée (facultatif)",
       "labelCreneau": "Créneau préféré pour l'appel",
       "labelMessage": "Décrivez votre projet (facultatif)",
       "labelIndicatif": "Indicatif pays",
@@ -269,15 +165,13 @@
       "rgpd": "J'accepte que mes données soient utilisées uniquement pour me recontacter dans le cadre de cette demande. Je peux exercer mes droits RGPD à tout moment auprès de",
       "phoneAlt": "Vous préférez parler directement ?",
       "successTitle": "Merci.",
-      "successText": "Nous vous rappelons dans les 24h ouvrées au numéro indiqué.",
+      "successText": "Je vous réponds sous 24 h ouvrées.",
       "errorFallback": "Une erreur est survenue. Réessayez ou écrivez à contact@arintegration.fr.",
-      "offreNone": "Aucune offre précise",
       "types": {
-        "vitrine": "Site vitrine",
-        "ecom": "Site e-commerce",
-        "app": "Application mobile (iOS/Android)",
-        "saas": "SaaS / dashboard",
-        "refonte": "Refonte de site existant",
+        "mobile": "Application mobile React Native / Expo",
+        "web": "Application web / SaaS Next.js",
+        "agence": "Sous-traitance pour agence web",
+        "reprise": "Reprise d’application existante",
         "autre": "Conseil / autre"
       },
       "budgets": {
@@ -293,42 +187,30 @@
         "c2": "Midi (12h-14h)",
         "c3": "Fin de journée (17h-19h)",
         "c4": "Soir (après 19h)"
-      },
-      "offres": {
-        "siteEssentielle": "Site Essentielle (690€ lancement)",
-        "siteConnecte": "Site Connecté (1050€ lancement)",
-        "sitePremium": "Site Premium (1750€ lancement)",
-        "ecomStarter": "E-commerce Starter (2090€ lancement)",
-        "ecomPro": "E-commerce Pro (3490€ lancement)",
-        "appMvp": "App MVP (3490€ lancement)",
-        "appPro": "App Pro (6990€ lancement)",
-        "surMesure": "Projet sur-mesure / SaaS",
-        "autre": "Je ne sais pas encore"
       }
     }
   },
   "footer": {
-    "tagline": "Agence web et mobile à Lyon. Sites internet, applications iOS/Android, e-commerce sur-mesure.",
-    "secteurs": {
-      "title": "Secteurs",
-      "medecins": "Sites pour médecins",
-      "avocats": "Sites pour avocats",
-      "immo": "Sites pour agences immo",
-      "autre": "Autre secteur"
+    "tagline": "Développeur freelance indépendant à Lyon (Villeurbanne). Applications mobiles React Native / Expo et web Next.js pour agences et startups.",
+    "navigation": {
+      "title": "Navigation",
+      "services": "Services",
+      "realisations": "Réalisations",
+      "tarification": "Tarification",
+      "faq": "FAQ",
+      "contact": "Contact"
     },
     "services": {
       "title": "Services",
-      "vitrine": "Sites vitrine",
-      "ecom": "E-commerce",
-      "apps": "Applications mobiles",
-      "custom": "Sur-mesure / SaaS"
+      "mobile": "Application mobile",
+      "web": "Application web / SaaS",
+      "agences": "Sous-traitance agences",
+      "reprise": "Reprise d’application"
     },
     "ressources": {
       "title": "Ressources",
       "process": "Méthode",
-      "apropos": "À propos",
-      "faq": "FAQ",
-      "contact": "Contact"
+      "apropos": "À propos"
     },
     "legal": {
       "mentions": "Mentions légales",
@@ -336,7 +218,7 @@
       "cgv": "CGV",
       "rgpd": "Contact RGPD"
     },
-    "copyright": "© 2026 AR Intégration · Conçu et codé à Lyon · Hébergement France"
+    "copyright": "© 2026 AR Intégration · Développeur freelance indépendant à Villeurbanne, Lyon"
   },
   "language": {
     "fr": "Français",
@@ -345,5 +227,28 @@
     "de": "Deutsch",
     "it": "Italiano",
     "switcherLabel": "Changer de langue"
+  },
+  "realisations": {
+    "kicker": "Réalisations",
+    "title": "Trois projets en production.",
+    "subtitle": "Des applications mobiles et web que j'ai conçues, développées et mises en production.",
+    "cordea": {
+      "name": "Cordea",
+      "cat": "SaaS B2B — Mobile",
+      "desc1": "SaaS B2B de gestion de chantier et de stock pour le BTP.",
+      "desc2": "Disponible sur l'App Store."
+    },
+    "sistel": {
+      "name": "SISTEL",
+      "cat": "Application iOS",
+      "desc1": "Application iOS de gestion d'interventions terrain pour un client industriel.",
+      "desc2": "Mode hors-ligne complet, synchronisation et export Excel."
+    },
+    "subflow": {
+      "name": "SubFlow",
+      "cat": "SaaS Web",
+      "desc1": "SaaS web de gestion de la sous-traitance.",
+      "desc2": "Facturation électronique au format Factur-X."
+    }
   }
 }

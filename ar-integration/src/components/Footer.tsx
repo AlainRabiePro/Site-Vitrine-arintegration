@@ -37,25 +37,24 @@ function FooterLink({ href, children, external }: { href: string; children: Reac
 export default function Footer() {
   const t = useTranslations('footer')
 
-  const COL_SECTEURS = [
-    { label: t('secteurs.medecins'), href: 'https://medecins.arintegration.fr', external: true },
-    { label: t('secteurs.avocats'), href: 'https://avocats.arintegration.fr', external: true },
-    { label: t('secteurs.immo'), href: 'https://immobilier.arintegration.fr', external: true },
-    { label: t('secteurs.autre'), href: '/#contact' },
+  const COL_NAVIGATION = [
+    { label: t('navigation.services'), href: '/#services' },
+    { label: t('navigation.realisations'), href: '/#realisations' },
+    { label: t('navigation.tarification'), href: '/#tarifs' },
+    { label: t('navigation.faq'), href: '/#faq' },
+    { label: t('navigation.contact'), href: '/#contact' },
   ]
 
   const COL_SERVICES = [
-    { label: t('services.vitrine'), href: '/#tarifs' },
-    { label: t('services.ecom'), href: '/#tarifs' },
-    { label: t('services.apps'), href: '/#tarifs' },
-    { label: t('services.custom'), href: '/#contact?offre=sur-mesure' },
+    { label: t('services.mobile'), href: '/#services' },
+    { label: t('services.web'), href: '/#services' },
+    { label: t('services.agences'), href: '/#services' },
+    { label: t('services.reprise'), href: '/#services' },
   ]
 
   const COL_RESSOURCES = [
     { label: t('ressources.process'), href: '/#process' },
     { label: t('ressources.apropos'), href: '/#apropos' },
-    { label: t('ressources.faq'), href: '/#faq' },
-    { label: t('ressources.contact'), href: '/#contact' },
   ]
 
   const COL_LEGAL = [
@@ -77,7 +76,6 @@ export default function Footer() {
               {t('tagline')}
             </p>
             <div className="mt-6 space-y-1.5 text-[13px] text-white/55">
-              <div>SIRET&nbsp;: 102 520 624 00010</div>
               <div>Villeurbanne, Lyon — Auvergne-Rhône-Alpes</div>
               <a href="tel:+33667755850" className="block transition-colors hover:text-white">
                 06 67 75 58 50
@@ -88,9 +86,9 @@ export default function Footer() {
             </div>
           </div>
 
-          <Column title={t('secteurs.title')}>
-            {COL_SECTEURS.map((item) => (
-              <FooterLink key={item.label} href={item.href} external={item.external}>
+          <Column title={t('navigation.title')}>
+            {COL_NAVIGATION.map((item) => (
+              <FooterLink key={item.label} href={item.href}>
                 {item.label}
               </FooterLink>
             ))}

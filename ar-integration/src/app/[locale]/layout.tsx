@@ -33,36 +33,47 @@ export async function generateMetadata({
     title: { default: t('title'), template: '%s | AR Intégration' },
     description: t('description'),
     keywords: [
-      'agence web Lyon',
-      'création site internet Lyon',
-      'développeur web Villeurbanne',
-      'application mobile sur-mesure',
-      'agence Next.js Lyon',
-      'site e-commerce Lyon',
+      'développeur freelance Lyon',
+      'développeur React Native Lyon',
+      'développeur Next.js Lyon',
+      'freelance Expo Villeurbanne',
+      'sous-traitance développement agence web',
+      'développeur TypeScript Supabase Lyon',
       'AR Intégration',
     ],
     authors: [{ name: 'Alain Rabie', url: baseUrl }],
     creator: 'Alain Rabie',
     publisher: 'AR Intégration',
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `/${locale}/`,
       languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `${baseUrl}/${l}`])
+        routing.locales.map((l) => [l, `${baseUrl}/${l}/`])
       ),
     },
     icons: { icon: '/favicon-32x32.png' },
     openGraph: {
       type: 'website',
       locale: locale === 'fr' ? 'fr_FR' : locale === 'en' ? 'en_US' : locale === 'es' ? 'es_ES' : locale === 'de' ? 'de_DE' : 'it_IT',
-      url: `/${locale}`,
+      url: `/${locale}/`,
       siteName: 'AR Intégration',
       title: t('title'),
       description: t('ogDescription'),
+      // URL absolue explicite : sur Vercel, la convention de fichier opengraph-image
+      // résout sinon vers VERCEL_URL (*.vercel.app) au lieu du domaine canonique.
+      images: [
+        {
+          url: `${baseUrl}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: 'AR Intégration — Développeur freelance React Native & Next.js à Lyon',
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('ogDescription'),
+      images: [`${baseUrl}/opengraph-image`],
     },
     robots: {
       index: true,
@@ -85,9 +96,11 @@ const buildJsonLd = (locale: string) => ({
       image: 'https://arintegration.fr/og.png',
       email: 'contact@arintegration.fr',
       telephone: '+33667755850',
-      priceRange: '690€ - 6990€',
+      description:
+        "Développeur freelance indépendant à Lyon (Villeurbanne). Applications mobiles React Native / Expo et web Next.js pour agences et startups.",
       foundingDate: '2024',
-      founder: { '@type': 'Person', name: 'Alain Rabie' },
+      founder: { '@id': 'https://arintegration.fr/#alain-rabie' },
+      knowsAbout: ['React Native', 'Expo', 'Next.js', 'TypeScript', 'Supabase'],
       identifier: '10252062400010',
       address: {
         '@type': 'PostalAddress',
@@ -104,20 +117,36 @@ const buildJsonLd = (locale: string) => ({
         { '@type': 'AdministrativeArea', name: 'Auvergne-Rhône-Alpes' },
         { '@type': 'Country', name: 'France' },
       ],
-      sameAs: [
-        'https://medecins.arintegration.fr',
-        'https://avocats.arintegration.fr',
-        'https://immobilier.arintegration.fr',
-      ],
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'Services AR Intégration',
         itemListElement: [
-          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Site vitrine sur-mesure' }, priceCurrency: 'EUR', price: '690' },
-          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Site e-commerce' }, priceCurrency: 'EUR', price: '2090' },
-          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Application mobile iOS/Android' }, priceCurrency: 'EUR', price: '3490' },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Développement d’applications mobiles React Native / Expo' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Développement d’applications web Next.js' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Sous-traitance technique pour agences web' } },
         ],
       },
+    },
+    {
+      '@type': 'Person',
+      '@id': 'https://arintegration.fr/#alain-rabie',
+      name: 'Alain Rabie',
+      jobTitle: 'Développeur freelance React Native & Next.js',
+      url: 'https://arintegration.fr',
+      worksFor: { '@id': 'https://arintegration.fr/#organization' },
+      knowsAbout: ['React Native', 'Expo', 'Next.js', 'TypeScript', 'Supabase'],
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Villeurbanne',
+        postalCode: '69100',
+        addressRegion: 'Auvergne-Rhône-Alpes',
+        addressCountry: 'FR',
+      },
+      sameAs: [
+        'https://www.linkedin.com/in/alain-rabie/',
+        'https://www.malt.fr/profile/alainrabie',
+        'https://github.com/AlainRabiePro',
+      ],
     },
     {
       '@type': 'WebSite',
